@@ -3,7 +3,7 @@ import CardHeader from "./CardHeader";
 
 const Card = (props) => {
   return (
-    <div>
+    <div data-testid="card">
       <div className="col s12 m6 l3">
         <div className="card blue-grey darken-1">
           <div className="card-content white-text">

@@ -13,7 +13,7 @@ function App() {
     <CardProvider>
       <Router>
         <div className="App">
-          <NavBar />
+          <NavBar title="Pentalog" />
           <Route path="/" component={Home} />
           <Route path="/edit/:id" component={Edit} />
           <Route path="/new" component={Add} />

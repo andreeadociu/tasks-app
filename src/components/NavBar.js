@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NavBar() {
+function NavBar(props) {
   return (
-    <nav>
+    <nav data-testid="navbar">
       <div className="nav-wrapper">
         <Link to="/" className="brand-logo">
-          Pentalog
+          {props.title}
         </Link>
       </div>
     </nav>
