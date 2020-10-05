@@ -18,10 +18,10 @@ const Home = () => {
             tasks.map((task) => (
               <Card
                 key={task.id}
+                id={task.id}
                 title={task.title}
                 content={task.content}
                 status={task.status}
-                id={task.id}
                 onComplete={onComplete.bind(this, task.id)}
               />
             ))

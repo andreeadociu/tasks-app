@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<nav
+  data-testid="navbar"
+>
+  <div
+    className="nav-wrapper"
+  >
+    <a
+      className="brand-logo"
+      href="/"
+      onClick={[Function]}
+    >
+      Test
+    </a>
+  </div>
+</nav>
+`;
