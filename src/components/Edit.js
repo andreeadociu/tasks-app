@@ -69,9 +69,8 @@ function Edit(props) {
               className="browser-default"
               value={status}
             >
-              <option value="">Choose your option</option>
-              <option value="completed">completed</option>
               <option value="uncompleted">uncompleted</option>
+              <option value="completed">completed</option>
             </select>
           </div>
         </div>

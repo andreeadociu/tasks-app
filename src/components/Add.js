@@ -56,9 +56,8 @@ const Add = () => {
           </div>
           <div onChange={changeHandlerStatus} className="input-field col s12">
             <select className="browser-default">
-              <option value="">Choose your option</option>
-              <option value="completed">completed</option>
               <option value="uncompleted">uncompleted</option>
+              <option value="completed">completed</option>
             </select>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Card = (props) => {
               status={props.status}
             />
             <p>{props.content}</p>
-            <p>Status: {props.status}</p>
+            <p className="status">Status: {props.status}</p>
           </div>
         </div>
       </div>

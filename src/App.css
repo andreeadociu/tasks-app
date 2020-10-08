@@ -10,3 +10,8 @@ nav .brand-logo {
   display: flex;
   justify-content: space-between;
 }
+
+.status {
+  color: #ffab40;
+  font-style: italic;
+}
